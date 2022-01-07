@@ -16,15 +16,12 @@ export default function Home() {
       <main className="bg-gray-50 relative h-screen w-full">
         <Header />
         <section className="md:flex justify-center items-center md:space-x-28 md:mt-36 mt-8 mx-2 grid grid-cols-1 space-y-8 md:space-y-0">
+          <ButtonCard title="New NFT" img="/new-icon.png" url="create" />
+          <ButtonCard title="Claim Account" img="" url="enroll" />
           <ButtonCard
-            title="New NFT"
-            img="/new-icon.png"
-            url="create"
-          />
-          <ButtonCard
-            title="Claim Account"
-            img=""
-            url="enroll"
+            title="ID QR"
+            img="/ancon-protocol-star-logo-white_star.png"
+            url="idqr"
           />
         </section>
       </main>
